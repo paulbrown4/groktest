@@ -1,2 +1,3 @@
-%{WORD:month}%{SPACE}${NUMBER:date}
-%{WORD:word}
+^%{SYSLOGTIMESTAMP:timestamp}%{SPACE}%{GREEDYDATA:stuff}
+^%{WORD:word}%{GREEDYDATA:stuff}
+^%{NUMBER:number}%{GREEDYDATA:stuff}
