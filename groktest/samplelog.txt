@@ -1,0 +1,11 @@
+Jan 29 14:23:21 cpe-172-118-0-125 python: detected unhandled Python exception in '/home/pbrown/eclipse-workspace/groktest/groktest.py'
+Jan 29 14:23:21 cpe-172-118-0-125 abrt-server: Executable '/home/pbrown/eclipse-workspace/groktest/groktest.py' doesn't belong to any package and ProcessUnpackaged is set to 'no'
+Jan 29 14:23:21 cpe-172-118-0-125 abrt-server: 'post-create' on '/var/spool/abrt/Python-2021-01-29-14:23:21-8260' exited with 1
+Jan 29 14:23:21 cpe-172-118-0-125 abrt-server: Deleting problem directory '/var/spool/abrt/Python-2021-01-29-14:23:21-8260'
+Jan 29 14:23:37 cpe-172-118-0-125 python: detected unhandled Python exception in '/home/pbrown/eclipse-workspace/groktest/groktest.py'
+Jan 29 14:23:37 cpe-172-118-0-125 abrt-server: Not saving repeating crash in '/home/pbrown/eclipse-workspace/groktest/groktest.py'
+Jan 29 14:24:58 cpe-172-118-0-125 dbus[904]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service'
+Jan 29 14:24:58 cpe-172-118-0-125 systemd: Starting Fingerprint Authentication Daemon...
+Jan 29 14:24:59 cpe-172-118-0-125 dbus[904]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 29 14:24:59 cpe-172-118-0-125 systemd: Started Fingerprint Authentication Daemon.
+word

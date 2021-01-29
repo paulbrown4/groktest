@@ -1,0 +1,2 @@
+%{WORD:month}%{SPACE}${NUMBER:date}
+%{WORD:word}
