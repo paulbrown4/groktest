@@ -19,12 +19,12 @@ def main():
     
     for line in contents:
         print("----")
-        print("Line: " + line.strip("\n") + "\nMatches: ")
+        print("Line: " + line.strip("\n") + "\n  Matches: ")
         for pattern in patterns: 
             result = grokmatch(line, pattern)
             if result is not None:
-                print("Pattern: " + pattern.strip("\n"))
-                print(result)
+                print("    Pattern: " + pattern.strip("\n"))
+                print("    " + str(result) + "\n")
     
 if __name__ == "__main__" :
     main()
